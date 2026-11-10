@@ -1,0 +1,219 @@
+/***** NAVBAR *****/
+.navbar {
+    background-color: #333; /* Darker background for better contrast */
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/***** NAVBAR *****/
+.navbar {
+    background-color: #333; /* Darker background for better contrast */
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #fff; /* White color for better contrast */
+    font-size: 22px; /* Larger font size for the brand name */
+    font-weight: bold;
+    letter-spacing: 0; /* Reset letter-spacing for consistency */
+    margin-right: 20px; /* Space between brand and links */
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #A9A9A9; /* Lighter color on hover */
+    
+	/*text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px; /* Font size for other links */
+    padding: 15px 20px; /* Increased padding for better touch targets */
+    letter-spacing: 0; /* Ensure consistency with navbar brand */
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #444; /* Slightly lighter border color */
+    background-color: #444; /* Match the background color */
+    border-radius: 4px;
+    font-size: 18px; /* Larger font size for accessibility */
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #555; /* Slightly lighter on hover */
+    color: #fff; /* Ensure text color remains white */
+    border-color: #555;
+}
+
+/* Menu icon */
+.navbar-toggler svg {
+    fill: #fff; /* Ensure icon color matches text */
+}
+
+
+/*** GENERAL JUMBOTRON STYLES ***/
+.jumbotron {
+    position: relative;
+    background-size: cover; /* Ensure the background image covers the element */
+    background-position: center; /* Center the background image */
+    text-align: center;
+    padding: 3%;
+    border-radius: 0px;
+    padding-top: 4.5%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans-serif;
+    color: black;
+    width: 100%;
+    height: 300px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/*** JUMBOTRON BACKGROUNDS FOR DIFFERENT PAGES ***/
+.jumbotron-index {
+    background-image: url("../assets/MikeyGCartography.png");
+}
+
+.jumbotron-about {
+    background-image: url("../assets/MikeyGAbout.png");
+}
+
+.jumbotron-resume {
+    background-image: url("../assets/MikeyGResume.png");
+}
+
+.jumbotron-contact {
+    background-image: url("../assets/MikeyGContact.png");
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1920px) {
+    .jumbotron {
+        width: 100vw; /* Full width of viewport */
+        height: 300px; /* Fixed height */
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 200px; /* Smaller height for mobile devices */
+    }
+}
+
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans; color: black;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans; color: black;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+
+body{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+p{
+    font-size:20px;
+}
+
+/*** About Section***/
+.about-heading {
+    font-size: 3rem; /* Adjust as needed for larger text size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Center the text within its container on all screen sizes */
+.text-center {
+    text-align: center;
+}
+
+/* Ensure responsiveness and proper spacing */
+#about {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+        /* Custom CSS to reduce margins between cards and container */
+        .container {
+            max-width: 75%; /* Make the container span the full width */
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .card {
+            margin-bottom: 20px; /* Add spacing between cards */
+        }
+
+        .card-body {
+            padding: 20px; /* Control padding inside card */
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0; /* Reduce margins between rows */
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: auto;
+        }
+    </style>

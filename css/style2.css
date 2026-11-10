@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #222;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:rgb(120,120,120);
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #222;
+    background-color: #222;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #222;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+body{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+p{
+    font-size:20px;
+}
